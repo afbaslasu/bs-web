@@ -22,7 +22,7 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <img
                 className="h-8 w-auto"
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                src="../src/assets/images/smilelink-logo-dark.png"
                 alt="Your Company"
               />
             </div>
