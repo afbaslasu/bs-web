@@ -12,8 +12,8 @@ export default function NewsletterSection() {
               Subscribe to our newsletter
             </h2>
             <p className="mt-4 text-lg text-gray-300">
-              Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing
-              velit quis. Duis tempor incididunt dolore.
+              Get the latest insights, tips, and updates delivered to your
+              inbox—crafted for creators, builders, and digital pros.
             </p>
             <div className="mt-6 flex max-w-md gap-x-4">
               <label htmlFor="email-address" className="sr-only">
@@ -48,8 +48,8 @@ export default function NewsletterSection() {
                 Weekly articles
               </dt>
               <dd className="mt-2 text-base text-gray-400">
-                Non laboris consequat cupidatat laborum magna. Eiusmod non irure
-                cupidatat duis commodo amet.
+                Stay informed with curated articles on design, development, and
+                innovation—one email, once a week.
               </dd>
             </div>
             <div className="flex flex-col items-start">
@@ -63,8 +63,8 @@ export default function NewsletterSection() {
                 No spam
               </dt>
               <dd className="mt-2 text-base text-gray-400">
-                Officia excepteur ullamco ut sint duis proident non adipisicing.
-                Voluptate incididunt anim.
+                We respect your inbox. No junk, just valuable content you’ll
+                actually want to read.
               </dd>
             </div>
           </dl>

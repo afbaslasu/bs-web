@@ -1,7 +1,7 @@
-
 import React from "react";
 import { FaLaptopCode, FaMobileAlt, FaCloud } from "react-icons/fa";
 import { HiOutlineCheckCircle } from "react-icons/hi";
+import ClientTestimonials from "./ClientTestimonials";
 
 // Option A: Feature-Focused Services Page
 export default function ServicesSection() {
@@ -11,7 +11,7 @@ export default function ServicesSection() {
       <section className="bg-gray-50">
         <div className="container mx-auto px-6 py-20 text-center">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            World-Class Web Development Services
+            Smilelink Web Development Services
           </h1>
           <p className="text-lg text-gray-700 mb-6">
             We deliver cutting-edge web solutions that drive growth, efficiency,
@@ -21,13 +21,13 @@ export default function ServicesSection() {
             href="#contact"
             className="inline-block bg-indigo-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-indigo-500"
           >
-            Get a Free Consultation
+            Chat With Us for Free
           </a>
         </div>
       </section>
 
       {/* Services Overview */}
-      <section className="container mx-auto px-6 py-16">
+      <section className="container bg-gray-50 mx-auto px-6 py-16">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
@@ -60,7 +60,7 @@ export default function ServicesSection() {
       </section>
 
       {/* Process Section */}
-      <section className="bg-gray-100">
+      <section className="bg-gray-50">
         <div className="container mx-auto px-6 py-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
             Our Proven Process
@@ -89,31 +89,10 @@ export default function ServicesSection() {
       </section>
 
       {/* Testimonials */}
-      <section className="container mx-auto px-6 py-16">
-        <h2 className="text-2xl font-bold text-gray-900 text-center mb-8">
-          Client Testimonials
-        </h2>
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {[
-            '"Outstanding service and attention to detail!"',
-            '"Their team transformed our online presence."',
-            '"Reliable, skilled, and professional."',
-          ].map((quote, idx) => (
-            <blockquote
-              key={idx}
-              className="border-l-4 border-indigo-600 pl-4 italic text-gray-700"
-            >
-              {quote}
-              <footer className="mt-2 text-sm text-gray-500">
-                — Happy Client
-              </footer>
-            </blockquote>
-          ))}
-        </div>
-      </section>
+      <ClientTestimonials />
 
       {/* Contact CTA */}
-      <section id="contact" className="bg-indigo-600 text-white py-16">
+      <section id="contact" className="bg-indigo-900 text-gray-200 py-16">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Start Your Project?

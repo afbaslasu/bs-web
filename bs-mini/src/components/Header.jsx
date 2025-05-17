@@ -9,9 +9,9 @@ const links = [
   { name: "Meet our leadership", href: "#" },
 ];
 const stats = [
-  { name: "Offices worldwide", value: "12" },
-  { name: "Full-time colleagues", value: "300+" },
-  { name: "Hours per week", value: "40" },
+  { name: "Offices worldwide", value: "6+" },
+  { name: "Full-time colleagues", value: "50+" },
+  { name: "Hours per week", value: "48" },
   { name: "Paid time off", value: "Unlimited" },
 ];
 
@@ -32,9 +32,9 @@ export default function Header() {
             Work with us
           </h2>
           <p className="mt-8 text-lg font-medium text-gray-300 sm:text-xl/8">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat.
+            Partner with us for fast, reliable web development focused on clean
+            code, modern tech, and real results. We build scalable, user-first
+            solutions that grow with your business.
           </p>
         </div>
 

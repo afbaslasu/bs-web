@@ -47,9 +47,10 @@ export default function ContentSection() {
                 A better workflow
               </h1>
               <p className="mt-6 text-xl text-gray-700">
-                Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                id at vitae feugiat egestas.
+                Focus on building your product while we handle the heavy
+                lifting. With automated deployments, instant rollbacks, and
+                performance monitoring out of the box, your team ships faster
+                and more confidently.
               </p>
             </div>
           </div>
@@ -65,10 +66,10 @@ export default function ContentSection() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-gray-700 lg:max-w-lg">
               <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                Id dolor praesent donec est. Odio penatibus risus viverra tellus
-                varius sit neque erat velit.
+                Built for collaboration, speed, and control: Our team is empower
+                with a unified workflow that supports preview environments,
+                real-time updates, and seamless Git integration. We ship
+                features, test changes, and iterate—all from one place.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
@@ -80,9 +81,10 @@ export default function ContentSection() {
                     <strong className="font-semibold text-gray-900">
                       Push to deploy.
                     </strong>{" "}
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    One command, zero friction Deploy directly from your Git
+                    workflow. Each push triggers a build, runs tests, and
+                    launches your app in minutes—no complex CI/CD setup
+                    required.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -94,8 +96,10 @@ export default function ContentSection() {
                     <strong className="font-semibold text-gray-900">
                       SSL certificates.
                     </strong>{" "}
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                    qui lorem cupidatat commodo.
+                    Automatic HTTPS, no configuration needed Secure every
+                    deployment with free SSL certificates that renew
+                    automatically. No manual intervention—just safe, trusted
+                    connections.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -107,21 +111,26 @@ export default function ContentSection() {
                     <strong className="font-semibold text-gray-900">
                       Database backups.
                     </strong>{" "}
-                    Ac tincidunt sapien vehicula erat auctor pellentesque
-                    rhoncus. Et magna sit morbi lobortis.
+                    Your data, always protected We perform automatic, encrypted
+                    backups with point-in-time recovery so you never lose
+                    critical data. Peace of mind, built in.
                   </span>
                 </li>
               </ul>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
+                Visualize changes before they go live Preview environments are
+                automatically generated for every push, allowing stakeholders
+                and developers to review updates in real time—no guesswork, no
+                surprises.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
                 No server? No problem.
               </h2>
               <p className="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                consequat in. Convallis arcu ipsum urna nibh.
+                Serverless by design, scalable by default Run your app without
+                managing infrastructure. Our platform handles autoscaling, cold
+                starts, and global distribution so you can focus on building,
+                not babysitting servers.
               </p>
             </div>
           </div>
