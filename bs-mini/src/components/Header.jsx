@@ -18,14 +18,20 @@ const stats = [
 export default function Header() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-      <img
-        alt=""
-        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
-        className="absolute inset-0 -z-10 w-full object-cover object-right md:object-center"
-      />
+      {/* Background image with overlay */}
+      <div
+        className="absolute inset-0 -z-10 w-full h-full bg-cover bg-center"
+        style={{
+          backgroundImage:
+            "url('../src/assets/images/web-tech-meeting-148.jpg')",
+        }}
+      >
+        <div className="absolute inset-0 bg-black opacity-30"></div>
+        <div className="absolute inset-0 -z-5 bg-gradient-to-tr from-indigo-700 via-purple-600 to-pink-500 mix-blend-multiply opacity-80" />
+        <div className="absolute inset-0 -z-5 bg-gradient-to-tr from-blue-900 via-yellow-800 to-yellow-600 mix-blend-multiply opacity-80" />
+      </div>
 
-      {/* Decorative blurred shapes omitted for brevity */}
-
+      {/* Content */}
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">
@@ -38,6 +44,7 @@ export default function Header() {
           </p>
         </div>
 
+        {/* Links and stats */}
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
