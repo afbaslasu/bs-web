@@ -71,10 +71,10 @@ export default function ServicesSection() {
               "Design & Development",
               "Testing & Launch",
             ].map((step) => (
-              <div key={step} className="flex items-start">
+              <div key={step} className="text-center flex items-center">
                 <HiOutlineCheckCircle className="h-8 w-8 text-green-500 mt-1 mr-4" />
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-900">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">
                     {step}
                   </h4>
                   <p className="text-gray-600">
@@ -104,7 +104,7 @@ export default function ServicesSection() {
             href="#"
             className="inline-block bg-white text-indigo-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100"
           >
-            Contact Us
+            Let's WhatSapp
           </a>
         </div>
       </section>

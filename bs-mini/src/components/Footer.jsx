@@ -127,7 +127,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-12 border-t border-indigo-700 pt-6 text-center text-sm text-gray-400">
-        © 2025 BrandName. All rights reserved.
+        © 2025 SmileLink. All rights reserved.
       </div>
     </footer>
   );

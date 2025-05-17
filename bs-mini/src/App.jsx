@@ -12,6 +12,7 @@ import ContentSection from './components/ContentSection'
 import ServicesSection from './components/ServicesSection';
 import LogoCloud from './components/LogoCloud'
 import Footer from './components/Footer';
+import GetInTouchForm from './components/GetInTouchForm';
 
 
 const App = () => {
@@ -50,6 +51,7 @@ const App = () => {
       <ContentSection />
       <ServicesSection />
       <LogoCloud />
+      <GetInTouchForm />
       <NewsletterSection />
       <NotFoundPage />
       <Footer />
