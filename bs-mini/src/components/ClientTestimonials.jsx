@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     name: "Beejay Omoh",
-    role: "CEO, iBuild Firm",
+    role: "CEO, i-Builder Firm",
     avatar: `${ teamMember }`,
     quote:
       "Their expertise delivered results beyond our expectations. Stellar team!",
