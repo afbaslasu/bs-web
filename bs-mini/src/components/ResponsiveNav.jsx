@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaChevronDown, FaBars } from "react-icons/fa";
 import Navbar from "./Navbar";
+import Logo from "../assets/images/smilelink-logo-dark.png";
 
 export default function ResponsiveNav() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,7 +21,9 @@ export default function ResponsiveNav() {
     <>
       {/* Mobile: show toggle button, hide Navbar */}
       <div className="flex items-center justify-between bg-gray-800 px-4 py-2 md:hidden">
-        <div className="text-white font-semibold">Logo</div>
+        <div className="flex-shrink-0">
+          <img className="h-6 w-auto" src={Logo} alt="smilelink logo" />
+        </div>
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="text-gray-300 hover:text-white focus:outline-none"
