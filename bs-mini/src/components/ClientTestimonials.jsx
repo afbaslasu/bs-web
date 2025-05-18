@@ -11,20 +11,20 @@ import "swiper/css/pagination";
 const testimonials = [
   {
     name: "Afbas Ibas",
-    role: "CEO, Acme Corp",
+    role: "CEO, smilelink Inc",
     avatar: `${ ibasPix }`,
     quote:
       "This service transformed our business. Exceptional quality and support!",
   },
   {
     name: "Ibas Kunle",
-    role: "CTO, Tech Innovations",
+    role: "CEO, ibaslogic Corp",
     avatar: `${ ibasKunle }`,
     quote: "A world-class experience from start to finish. Highly recommend!",
   },
   {
     name: "Beejay Omoh",
-    role: "Product Lead, InnovateX",
+    role: "CEO, iBuild Firm",
     avatar: `${ teamMember }`,
     quote:
       "Their expertise delivered results beyond our expectations. Stellar team!",
