@@ -1,6 +1,8 @@
 
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
+import headerImage from '../assets/images/web-tech-meeting-148.jpg';
+
 
 const links = [
   { name: "Open roles", href: "#" },
@@ -22,8 +24,7 @@ export default function Header() {
       <div
         className="absolute inset-0 -z-10 w-full h-full bg-cover bg-center"
         style={{
-          backgroundImage:
-            "url('../src/assets/images/web-tech-meeting-148.jpg')",
+          backgroundImage: `url(${headerImage})`,
         }}
       >
         <div className="absolute inset-0 bg-black opacity-30"></div>

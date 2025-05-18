@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBell, FaUserCircle } from "react-icons/fa";
+import Logo from "../assets/images/smilelink-logo-dark.png";
 
 const navigation = [
   { name: "Dashboard", href: "#", current: true },
@@ -22,8 +23,8 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <img
                 className="h-8 w-auto"
-                src="../src/assets/images/smilelink-logo-dark.png"
-                alt="Your Company"
+                src={Logo}
+                alt="smilelink logo"
               />
             </div>
             <div className="hidden sm:flex sm:space-x-4">

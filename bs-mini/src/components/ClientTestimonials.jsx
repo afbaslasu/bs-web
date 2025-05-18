@@ -1,29 +1,31 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
+import ibasPix from "../assets/images/profilePix.png";
+import ibasKunle from "../assets/images/ibaslogicPix.png";
+import teamMember from "../assets/images/team-6.jpg";
 
 import "swiper/css";
 import "swiper/css/pagination";
-
 
 const testimonials = [
   {
     name: "Afbas Ibas",
     role: "CEO, Acme Corp",
-    avatar: "../src/assets/images/profilePix.png",
+    avatar: `${ ibasPix }`,
     quote:
       "This service transformed our business. Exceptional quality and support!",
   },
   {
     name: "Ibas Kunle",
     role: "CTO, Tech Innovations",
-    avatar: "../src/assets/images/ibaslogicPix.png",
+    avatar: `${ ibasKunle }`,
     quote: "A world-class experience from start to finish. Highly recommend!",
   },
   {
     name: "Beejay Omoh",
     role: "Product Lead, InnovateX",
-    avatar: "../src/assets/images/team-6.jpg",
+    avatar: `${ teamMember }`,
     quote:
       "Their expertise delivered results beyond our expectations. Stellar team!",
   },
